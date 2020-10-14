@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Menu } from 'semantic-ui-react';
+import { Menu } from 'semantic-ui-react';
 
 export default class Nav extends Component{
     render(){
@@ -14,11 +14,11 @@ export default class Nav extends Component{
                         {/* For navigation list */}
                         <div class="nav-menu">
                             <ul className="nav-list">
-                                <li><a>How it Works</a></li>
-                                <li className="selected"><a>Requesters</a></li>
-                                <li><a>Workers</a></li>
-                                <li><a>Pricing</a></li>
-                                <li><a>About</a></li>
+                                <li><Link to="">How it Works</Link></li>
+                                <li><Link to="/requestertask">Requesters</Link></li>
+                                <li><Link to="">Workers</Link></li>
+                                <li><Link to="">Pricing</Link></li>
+                                <li><Link to="">About</Link></li>
                             </ul>
                         </div>
                     <Menu.Item position="right">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Grid, Icon, Input, Menu } from 'semantic-ui-react';
+import { Container, Grid, Icon, Input} from 'semantic-ui-react';
 
 export default class Nav extends Component{
     render(){
