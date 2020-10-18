@@ -61,6 +61,9 @@
 .margin-left-20{
   margin-left: 20px;
 }
+.margin-left-10{
+  margin-left: 10px;
+}
 
 .load-img{
   width: 100%;
@@ -157,6 +160,17 @@ a{
   background-color: burlywood;
   border-radius: 0.756443rem;
 }
+.submit-button{
+  border: none;
+  border-radius: 0.45rem;
+  padding: 0.353342rem 2.23423rem;
+  font-size: 20px;
+  font-weight: 500;
+  background: chocolate;
+  float: right;
+  margin-right: 5%;
+  margin-top: 3%;
+}
 
 /* Requesters */
 .req-img{
@@ -183,3 +197,20 @@ a{
   }
 }
 
+/* Label */
+.ui.label{
+  margin-left: .543234rem;
+}
+
+/* Checkbox */
+.checkbox{
+  text-align: left;
+  margin: 5px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+/* Radio Button */
+.RadioButton{
+  text-align: left;
+}
